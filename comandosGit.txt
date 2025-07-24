@@ -1,0 +1,11 @@
+git config --global user.name
+git config --global user.name
+
+git add .
+git commit -m "mensaje"
+git push
+
+git fetch
+git pull
+
+git reset --hard

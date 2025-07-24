@@ -1,0 +1,2 @@
+1 realizar un modelo entidad  y relacion completo de modelo de su empresa.(hacerlo en drau,io) 
+2 realizar la bse de dato en xampp de las entidade3s seleccionadas en clases 
