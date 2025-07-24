@@ -1,2 +1,15 @@
-1 realizar un modelo entidad  y relacion completo de modelo de su empresa.(hacerlo en drau,io) 
-2 realizar la bse de dato en xampp de las entidade3s seleccionadas en clases 
+1 realizar un modelo entidad  y relacion completo de modelo de su empresa.(hacerlo en draw,io) 
+2 realizar la bse de dato en xampp de las entidade3s seleccionadas en clases.
+PROVEEDOR DE TELA (MATERIA PRIMA)
+EMPLEADO DE ARMADO DE CAMPERA
+EMPLEADO DE DISEÑO
+EMPLEADO DE EMPAQUETADO
+VENTAS
+COMPRAS
+GASTOS
+INGRESOS
+ENVIOS A DOMICILIO
+CLIENTES
+CATEGORIAS DE CAMPERA 
+EMPLEADOS
+CARGOS EMPLEADOS
