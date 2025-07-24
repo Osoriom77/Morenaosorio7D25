@@ -2,10 +2,10 @@ git config --global user.name
 git config --global user.name
 
 git add .
-git commit -m "mensaje"
+git commit -m "mensaje" *// subir las modificaciones 
 git push
 
 git fetch
-git pull
+git pull    *//  descargar 
 
-git reset --hard
+git reset --hard  *// volver a recuperar 
