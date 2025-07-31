@@ -11,7 +11,7 @@ font-family: 'poppins' , sans-serif;
 }
 :root{
     --back-color: #533F3F;
-    --back-color: #f6e9f3   ;
+    --back-color: #000000   ;
 
     --main-color1:#413755  ;
     --main-color2:#6d476a  ;
@@ -27,9 +27,6 @@ font-family: 'poppins' , sans-serif;
 
     --del-color:#d10000 ;
     --del-color:#EB1313 ;
-
-    --text-color: #ededed; 
-    --text-color:#333 ; 
 
     font-size: 15px;
 }
