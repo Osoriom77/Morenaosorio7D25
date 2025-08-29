@@ -1,0 +1,87 @@
+@keyframes popup-show {
+    0%{
+        bottom: -10rem;
+        opacity: 0;
+    }
+
+    20%{
+        bottom: 0rem;
+        opacity: 1;
+    }
+
+    80%{
+        bottom: 0rem;
+        opacity: 1;
+    }
+    
+    100%{
+        bottom: -10rem;
+        opacity: 0;
+    }
+}
+
+.popup{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid var(--main-color1);
+    background: var(--main-color3);
+    animation: popup-show 5s forwards;
+}
+
+.popup-texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.popup-texto span{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+    padding: 0.5rem;
+}
+
+.popup-texto p{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+    text-indent: 1rem;
+}
+
+
+.popup-bar{
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    border-top: 0.1rem solid rgba(0,0,0,0.25);
+    border-bottom: 0.1rem solid rgba(0,0,0,0.25);
+}
+
+.progress-bar{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent,
+     var(--main-color1));
+    animation: progress-bar 1s infinite;
+}
+
+@keyframes progress-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}

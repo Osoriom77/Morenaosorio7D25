@@ -1,0 +1,45 @@
+.boton{
+    width: 10rem;
+    height: 2rem;
+    color: var(--text-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.25rem rgba(0,0,0,0.75);
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.boton::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 300%;
+    background: linear-gradient(45deg, var(--main-color1) 50%,
+     var(--main-color5) 50%);
+    top: 0;
+    left: -200%;
+    z-index: 0;
+    transition: all 0.75s ease;
+}
+
+.boton:hover::after{
+    left: 0%;
+}
+
+.boton span{
+    z-index: 2;
+}
+
+.boton p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.boton:hover p{
+    color: var(--text-color);
+}
