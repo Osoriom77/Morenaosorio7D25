@@ -18,7 +18,7 @@
         $consulta->execute();
         $resultados = $consulta->fetchAll(PDO::FETCH_ASSOC);
 
-        if(isset($resultados)){
+        if($resultados){
             echo "Bienvenido ".$resultados[0]['nombre']." ".$resultados[0]['apellido'];
         }else{
             header('Location: index.php');
@@ -28,4 +28,4 @@
     ?>
 
 </body>
-</html>
+</html>  

@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10rem;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+form h1{
+    width: 100%;
+    height: 20%;
+    min-height: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(var(--main-color3), var(--main-color5));
+    display: flex;
+    align-items: center;
+}
+
+.camposFormulario{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.campo-texto{
+    width: 40%;
+}
+
+.campo-texto input{
+    width: 100%;
+    color: transparent;
+}
+
+.campo-texto input:hover,
+.campo-texto input:focus,
+.campo-texto input:valid{
+    color: var(--text-color1);
+}
+
+.botoneraFormulario{
+    width: 100%;
+    height: 20%;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
