@@ -13,37 +13,37 @@
 </head>
 <body>
     <form action="gestion-usuario.php" method="POST" class="registro">
-        <h1>Registro de Usuario</h1>
+        <h1>agregar producto</h1>
 
         <div class="camposFormulario">
             <div class="campo-texto">
                 <input type="text" name="username" id="" required>
-                <label for="">Nombre de Usuario</label>
+                <label for="">Nombre</label>
             </div>
 
             <div class="campo-texto">
                 <input type="password" name="password" id="" required>
-                <label for="">Contraseña</label>
+                <label for="">Descripción </label>
             </div>
 
             <div class="campo-texto">
                 <input type="text" name="name" id="" required>
-                <label for="">Nombre</label>
+                <label for="">Tecnica </label>
             </div>
             
             <div class="campo-texto">
                 <input type="text" name="surname" id="" required>
-                <label for="">Apellido</label>
+                <label for=""> 	Color </label>
             </div>
 
             <div class="campo-texto">
-                <input type="date" name="date" id="" required>
-                <label for="">Fecha de Nacimiento</label>
+                <input type="text" name="text" id="" required>
+                <label for=""> Precio </label>
             </div>
 
             <div class="campo-texto">
                 <input type="text" name="adress" id="" required>
-                <label for="">Domicilio</label>
+                <label for=""> Stock </label>
             </div>
 
         </div>
@@ -56,6 +56,7 @@
         </div>
 
     </form>
+
 
 
     <script>
