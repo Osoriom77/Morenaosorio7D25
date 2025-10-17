@@ -13,7 +13,7 @@
 </head>
 <body>
     <form action="gestion-usuario.php" method="POST" class="registro">
-        <h1>agregar producto</h1>
+        <h1>Agregar Producto</h1>
 
         <div class="camposFormulario">
             <div class="campo-texto">

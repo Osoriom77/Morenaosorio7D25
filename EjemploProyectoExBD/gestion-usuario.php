@@ -10,12 +10,12 @@
                 // Insertar como nuevo registro a la base de datos
                 include_once 'php/Conectar.php';
                 // Create - RUD
-                $username = $_POST["username"];
-                $password = sha1( $_POST["password"] );
-                $nombre = ($_POST["name"]);
-                $apellido = ($_POST["surname"]);
-                $domicilio = ($_POST["adress"]);
-                $fechaNac = ($_POST["date"]);
+                $Nombre = $_POST["nombre"];
+                $Descripción  = sha1( $_POST["descripcion"] );
+                $Tecnica = ($_POST["tecnica"]);
+                $Color = ($_POST["color"]);
+                $Precio = ($_POST["precio"]);
+                $Stock = ($_POST["stock"]);
 
                 
                 $stmt = "INSERT INTO usuarios(username, pass, nombre, apellido, fecNac, domicilio) 
