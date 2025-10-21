@@ -22,7 +22,7 @@
             </div>
 
             <div class="campo-texto">
-                <input type="password" name="password" id="" required>
+                <input type="text" name="text" id="" required>
                 <label for="">Descripción </label>
             </div>
 
@@ -42,7 +42,7 @@
             </div>
 
             <div class="campo-texto">
-                <input type="text" name="adress" id="" required>
+                <input type="int" name="adress" id="" required>
                 <label for=""> Stock </label>
             </div>
 

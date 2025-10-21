@@ -10,16 +10,16 @@
                 // Insertar como nuevo registro a la base de datos
                 include_once 'php/Conectar.php';
                 // Create - RUD
-                $Nombre = $_POST["nombre"];
-                $Descripción  = sha1( $_POST["descripcion"] );
-                $Tecnica = ($_POST["tecnica"]);
-                $Color = ($_POST["color"]);
-                $Precio = ($_POST["precio"]);
-                $Stock = ($_POST["stock"]);
+                $Nombre = $_POST["Nombre"];
+                $Descripción  = sha1( $_POST["Descripcion"] );
+                $Tecnica = ($_POST["Tecnica"]);
+                $Color = ($_POST["Color"]);
+                $Precio = ($_POST["Precio"]);
+                $Stock = ($_POST["Stock"]);
 
                 
                 $stmt = "INSERT INTO usuarios(username, pass, nombre, apellido, fecNac, domicilio) 
-                    VALUES ('".$username."','".$password."','".$nombre."','".$apellido."','".$fechaNac."','".$domicilio."')" ;
+                    VALUES ('".$Nombre."','".$Descripción."','".$Tecnica."','".$Color."','".$Precio."','".$Stock."')" ;
                 $consulta = Conectar::conexion()->prepare($stmt);
                 $consulta->execute();
                 
