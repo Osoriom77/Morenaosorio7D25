@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agregar Producto</title>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/campo-texto.css">
@@ -51,7 +51,7 @@
         <div class="botoneraFormulario" id="botonEnviar">
             <div class="boton">
                 <span class="icon-"></span>
-                <p>Registrarse</p>
+                <p>AGREGAR</p>
             </div>
         </div>
 
