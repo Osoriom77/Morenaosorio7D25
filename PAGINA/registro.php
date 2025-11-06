@@ -50,7 +50,7 @@
 
         <div class="botoneraFormulario" id="botonEnviar">
             <div class="boton">
-                <span class="icon-"></span>
+                <span class="icon-"></span href="ventas.html">
                 <p>AGREGAR</p>
             </div>
         </div>

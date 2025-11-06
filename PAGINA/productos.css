@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #acd3f3ff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table thead {
+  background-color: #5b93caff;
+  color: white;
+}
+
+.product-table th,
+.product-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.acciones {
+  text-align: center;
+ 
+
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  margin: 2px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* COLORES CRUD */
+.btn.alta {
+  background-color: #28a745;
+}
+.btn.alta:hover {
+  background-color: #218838;
+}
+
+.btn.baja {
+  background-color: #dc3545;
+}
+.btn.baja:hover {
+  background-color: #c82333;
+}
+
+.btn.modificar {
+  background-color: #ffc107;
+  color: #333;
+}
+.btn.modificar:hover {
+  background-color: #e0a800;
+}
+
+.btn.leer {
+  background-color: #007bff;
+}
+.btn.leer:hover {
+  background-color: #0056b3;
+}

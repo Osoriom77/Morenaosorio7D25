@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="registro.php">
     <link rel="stylesheet" href="gestion-usuario.php">
-    <link rel="stylesheet" href="ventas.html">
-    <link rel="stylesheet" href="productos.html">
+    <link rel="stylesheet" href="ventas.php">
+    <link rel="stylesheet" href="productos.php">
 
 </head>
 <body>
@@ -21,8 +21,8 @@
 
         <nav>
             <ul>
-                <li><a href="ventas.html">VENTAS</a></li>
-                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="ventas.php">VENTAS</a></li>
+                <li><a href="productos.php">PRODUCTOS</a></li>
                 <li><a href="registro.php">AGREGAR PRODUCTOS</a></li>
 
             </ul>
